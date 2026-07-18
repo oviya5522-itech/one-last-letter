@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Last Letter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card" id="landingCard">
+
+            <h1>💌Someone left a letter for you💌</h1>
+
+            <p class="subtitle">
+                Maybe it's yours!!!<br><br>Enter your register number to find out if it's yours.
+            </p>
+
+            <input
+                type="text"
+                id="rollNo"
+                placeholder="Register Number">
+
+            <button id="findBtn">
+                Find My Letter
+            </button>
+            <p id="errorMsg" class="error"></p>
+
+            <p class="hint">
+                Every letter is different!
+            </p>
+
+        </div>
+         <!-- Searching Screen -->
+        <div class="searching" id="searchScreen">
+
+            <h2>Searching through memories...</h2>
+
+            <p id="statusText">
+                Looking through attendance sheets...
+            </p>
+
+        </div>
+        <!-- Envelope Screen -->
+        <div class="envelopeScreen" id="envelopeScreen">
+
+            <div class="envelope">
+
+                <div class="flap"></div>
+
+                <div class="letter">
+
+                    <h2 id="letterTitle"></h2>
+
+                    <p class="letterText" id="letterText"></p>
+                    <p class="signature" id="signature"></p>
+                    <div class="replySection" id="replySection">
+                        <p class="replyText">
+                            If you've made it this far... Thank you 💗
+
+                            <br>
+                            Would you leave a little note for me too?
+                        </p>
+
+                        <button class="replyBtn" id="replyBtn">
+                            💌 Write back  💌
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="seal">
+                    O
+                </div>
+
+            </div>
+
+            <p class="clickText">
+                Click the envelope 💌
+            </p>
+
+
+        </div>
+    </div>
+    <script src="letters.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
