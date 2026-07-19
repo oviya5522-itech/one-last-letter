@@ -136,16 +136,6 @@ function typeLetter(title, message, sign){
 
             messageIndex++;
 
-            const needsScroll =
-                letter.scrollHeight - letter.scrollTop - letter.clientHeight < 80;
-
-            if (needsScroll) {
-                letter.scrollTo({
-                    top: letter.scrollHeight,
-                    behavior: "smooth"
-                });
-            }
-
             setTimeout(typeMessage,40);
 
         }else{
@@ -166,16 +156,10 @@ function typeLetter(title, message, sign){
 
             signIndex++;
 
-            letter.scrollTop = letter.scrollHeight;
-
             setTimeout(typeSignature,70);
-            
+
         }
-        else{
 
-        document.getElementById("replySection").classList.add("show");
-
-    }
     }
 
     typeTitle();
