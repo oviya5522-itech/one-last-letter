@@ -324,7 +324,7 @@ button:hover {
 
     font-family:'Satisfy', serif;
 
-    font-size:27px;
+    font-size:25px;
     font-weight:400;
     color:#5a3b2c;
 
@@ -342,7 +342,7 @@ button:hover {
 
     font-family:'Satisfy', serif;
     font-weight:400;
-    font-size:27px;
+    font-size:25px;
 
     color:#5a3b2c;
 
@@ -353,8 +353,8 @@ button:hover {
 .letterText{
     color:#333;
     font-family:'Satisfy', cursive;
-    font-size:23px;
-    line-height:1.8;
+    font-size: 18px;
+    line-height:1.2;
     text-align:justify;
     white-space:pre-line;
 }
@@ -395,4 +395,20 @@ button:hover {
 .replyBtn:hover{
     transform:translateY(-3px) scale(1.03);
     background:#a54d67;
+}
+@media (max-width:768px){
+
+    .letter{
+
+        width:92vw;
+        max-width:92vw;
+
+        height:82vh;
+
+        padding:20px;
+
+        box-sizing:border-box;
+
+    }
+
 }
