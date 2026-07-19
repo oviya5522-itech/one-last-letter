@@ -257,8 +257,11 @@ button:hover {
 
     position:absolute;
 
-    width:260px;
-    height:160px;
+    width: 90vw;
+    max-width: 650px;
+
+    height: 75vh;
+    max-height: 700px;
 
     background:#fff8e7;
 
