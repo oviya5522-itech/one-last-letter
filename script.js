@@ -135,6 +135,15 @@ function typeLetter(title, message, sign){
             letterText.textContent += message.charAt(messageIndex);
 
             messageIndex++;
+             const nearBottom =
+            letter.scrollHeight - letter.scrollTop - letter.clientHeight < 120;
+
+        if(nearBottom){
+            letter.scrollTo({
+                top: letter.scrollHeight,
+                behavior: "smooth"
+            });
+        }
 
             setTimeout(typeMessage,40);
 
@@ -155,6 +164,10 @@ function typeLetter(title, message, sign){
             signature.textContent += sign.charAt(signIndex);
 
             signIndex++;
+            letter.scrollTo({
+    top: letter.scrollHeight,
+    behavior: "smooth"
+});
 
             setTimeout(typeSignature,70);
 
