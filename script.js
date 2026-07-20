@@ -38,9 +38,9 @@ if(student){
 }else{
 
     currentLetter = {
-    title: "Dear Friend,",
-    message: "Someone wanted you to know that you made this journey special.",
-    signature: "With love,\nSomeone"
+    title: "Hey,",
+    message: "Keep Going!You are doing great💗🫂",
+    signature: "~Ov"
 };
 
 }
