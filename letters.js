@@ -677,6 +677,7 @@ Shine Bright✨.`,
 
         message:`Thank you for making this journey so much more fun. Working with you during our project was honestly one of the nicest parts of 1st year. You're one of the sweetest and kindest people I've met, and your cheerful energy can brighten anyone's day. Never lose that. 
 Wishing you all the happiness and success ahead. 
+ps:Thanks for the pen.you are soooo kind😭
 Shine Bright BBG!💗✨`,
 
         signature:"\n~xoxo Your First CR"
